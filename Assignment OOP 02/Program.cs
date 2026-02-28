@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment_OOP_02
 {
@@ -48,6 +49,19 @@ namespace Assignment_OOP_02
               Can a property contain logic?
 
               Yes, properties can include logic such as validation or calculations
+
+            */
+
+            #endregion
+
+            #region Q03
+
+            /*
+               It is called an Indexer.
+
+               It allows objects to be accessed like arrays.
+
+                It provides indexed access to class data.
 
             */
 
