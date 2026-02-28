@@ -115,6 +115,32 @@ namespace Assignment_OOP_02
 
             #endregion
 
+
+            #region Part 2 
+
+            #region Q01
+            /*
+            بعمل كلاس جديد وبغيره ل enum
+
+            public enum TicketType
+           {
+            Standard,
+            VIP,
+            IMAX
+            }
+
+            */
+
+            #endregion
+
+            #region 
+
+
+            #endregion
+
+
+
+            #endregion
         }
     }
 }
