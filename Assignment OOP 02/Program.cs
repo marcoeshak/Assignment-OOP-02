@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.Metrics;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment_OOP_02
@@ -92,10 +93,28 @@ namespace Assignment_OOP_02
             #endregion
 
             #region Q04
+            /*
 
+            a)
 
+            static means the member belongs to the class, not to an object.
+
+            The value is shared among all instances of the class.
+
+            Item is an instance field and is unique for each object.
+
+            b)
+
+            No, a static method cannot access instance fields directly.
+
+           Static members do not belong to a specific object.
+
+           Instance data requires an object reference.
+               
+             */
 
             #endregion
+
         }
     }
 }
