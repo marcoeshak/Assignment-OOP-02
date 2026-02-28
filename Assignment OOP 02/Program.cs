@@ -57,13 +57,43 @@ namespace Assignment_OOP_02
             #region Q03
 
             /*
+              a)
                It is called an Indexer.
 
                It allows objects to be accessed like arrays.
 
                 It provides indexed access to class data.
 
+            b)
+
+            A runtime error (IndexOutOfRangeException) will occur.
+
+           This happens because the index is outside the array bounds.
+
+           How to make the indexer safer
+
+           Add index range validation.
+
+           Prevent access if the index is invalid.
+
+            c)
+            Yes, a class can have more than one indexer.
+
+           Indexers can be overloaded using different parameter types.
+
+         Example:
+
+              One indexer using int
+
+             Another indexer using string
+
             */
+
+            #endregion
+
+            #region Q04
+
+
 
             #endregion
         }
