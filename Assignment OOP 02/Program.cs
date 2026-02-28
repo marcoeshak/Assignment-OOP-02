@@ -133,14 +133,34 @@ namespace Assignment_OOP_02
 
             #endregion
 
-            #region 
+            #region Q02
 
+            /*
+            بعمل كلاس جديد وبغيره ل Struct
+            public struct SeatLocation
+        {
+            public char Row;
+            public int Number;
 
-            #endregion
+            public SeatLocation(char row, int number)
+            {
+                Row = row;
+                Number = number;
+            }
 
-
-
-            #endregion
+            public override string ToString()
+            {
+                return $"{Row}-{Number}";
+            }
         }
+
+            */
+
+            #endregion
+
+
+
+            #endregion
+    }
     }
 }
