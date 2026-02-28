@@ -38,7 +38,20 @@ namespace Assignment_OOP_02
             */
             #endregion
 
+            #region Q02 
+            /*
 
+              Field: Stores data directly.
+
+              Property: Provides controlled access to data using getters and setters.
+
+              Can a property contain logic?
+
+              Yes, properties can include logic such as validation or calculations
+
+            */
+
+            #endregion
         }
-}
+    }
 }
