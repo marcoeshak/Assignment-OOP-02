@@ -158,7 +158,60 @@ namespace Assignment_OOP_02
 
             #endregion
 
+            #region Q03
 
+            /*
+            public class Ticket
+        {
+            private string movieName;
+            private double price;
+
+            private static int ticketCounter = 0;
+
+            public int TicketId { get; }
+
+            public string MovieName
+            {
+                get => movieName;
+                set
+                {
+                    if (!string.IsNullOrEmpty(value))
+                        movieName = value;
+                }
+            }
+
+            public TicketType Type { get; set; }
+            public SeatLocation Seat { get; set; }
+
+            public double Price
+            {
+                get => price;
+                set
+                {
+                    if (value > 0)
+                        price = value;
+                }
+            }
+
+            public double PriceAfterTax => Price * 1.14;
+
+            public Ticket(string movieName, TicketType type, SeatLocation seat, double price)
+            {
+                TicketId = ++ticketCounter;
+                MovieName = movieName;
+                Type = type;
+                Seat = seat;
+                Price = price;
+            }
+
+            public static int GetTotalTicketsSold()
+            {
+                return ticketCounter;
+            }
+        }
+            */
+
+            #endregion
 
             #endregion
     }
