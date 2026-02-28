@@ -215,7 +215,7 @@ namespace Assignment_OOP_02
             #endregion
 
             #region Q04
-             
+
             /*
             بعمل كلاس جديد باسم Cinema
             public class Cinema
@@ -266,6 +266,33 @@ namespace Assignment_OOP_02
 
             #endregion
 
+            #region Q05
+
+            /*
+            بعمل كلاس جديد باسم BookingHelper
+            public static 
+            lass BookingHelper
+        {
+            private static int counter = 0;
+
+            public static double CalcGroupDiscount(int numberOfTickets, double pricePerTicket)
+            {
+                double total = numberOfTickets * pricePerTicket;
+                if (numberOfTickets >= 5)
+                    return total * 0.9;
+                return total;
+            }
+
+            public static string GenerateBookingReference()
+            {
+                counter++;
+                return $"BK-{counter}";
+            }
+        }
+            */
+            #endregion
+
+            
             #endregion
     }
     }
