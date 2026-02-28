@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.Metrics;
+using System.Net.Sockets;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment_OOP_02
@@ -209,6 +210,58 @@ namespace Assignment_OOP_02
                 return ticketCounter;
             }
         }
+            */
+
+            #endregion
+
+            #region Q04
+             
+            /*
+            بعمل كلاس جديد باسم Cinema
+            public class Cinema
+        {
+            private Ticket[] tickets = new Ticket[20];
+
+            public Ticket this[int index]
+            {
+                get
+                {
+                    if (index < 0 || index >= tickets.Length)
+                        return null;
+                    return tickets[index];
+                }
+                set
+                {
+                    if (index < 0 || index >= tickets.Length)
+                        return;
+                    tickets[index] = value;
+                }
+            }
+
+            public bool AddTicket(Ticket t)
+            {
+                for (int i = 0; i < tickets.Length; i++)
+                {
+                    if (tickets[i] == null)
+                    {
+                        tickets[i] = t;
+                        return true;
+                    }
+                }
+                return false;
+            }
+
+            public Ticket GetMovieByName(string movieName)
+            {
+                foreach (var t in tickets)
+                {
+                    if (t != null && t.MovieName == movieName)
+                        return t;
+                }
+                return null;
+            }
+        }
+
             */
 
             #endregion
